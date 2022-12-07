@@ -47,9 +47,11 @@ function LandingIntro() {
             data={{
               text: "Crypto Classic made by Nikhil using React JS",
               url: "https://crypto-classic-2.netlify.app/",
-              title: "Crypto Dashboard",
+              title: "Crypto Classic-2.0",
             }}
-            onClick={() => console.log("Thankyou for sharing our application!")}
+            onClick={() => if(window.matchMedia("(max-width: 400px)").matches)
+                                {console.log("Thankyou for sharing our application!")}
+                           else {alert("Thankyou for sharing our application!")}}
           >
             <Button text="Share" outlined={true} />
           </RWebShare>
