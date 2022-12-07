@@ -49,7 +49,7 @@ function LandingIntro() {
               url: "https://crypto-classic-2.netlify.app/",
               title: "Crypto Classic-2.0",
             }}
-            onClick={() => if(window.matchMedia("(max-width: 400px)").matches)
+            onClick={() => if(window.matchMedia("(min-width: 400px)").matches)
                                 {console.log("Thankyou for sharing our application!")}
                            else {alert("Thankyou for sharing our application!")}}
           >
