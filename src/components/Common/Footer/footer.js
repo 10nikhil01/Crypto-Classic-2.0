@@ -29,7 +29,10 @@ function Footer() {
             url: "https://crypto-classic-2.netlify.app/",
             title: "Crypto Classic 2.0",
           }}
-          onClick={() => alert("Thankyou for sharing our application!")}
+          onClick={() => {
+                           if(window.matchMedia("(min-width: 400px)").matches)
+                                {return console.log("Thankyou for sharing our application!")}
+                           else {return alert("Thankyou for sharing our application!")}}}
         >
           <SendIcon className="socials-icon" />
         </RWebShare>
