@@ -45,11 +45,11 @@ function LandingIntro() {
 
           <RWebShare
             data={{
-              text: "Crypto Dashboard made using React JS in 2022",
-              url: "https://crypto-dashboard-nov.netlify.app/",
+              text: "Crypto Classic made by Nikhil using React JS",
+              url: "https://crypto-classic-2.netlify.app/",
               title: "Crypto Dashboard",
             }}
-            onClick={() => console.log("shared successfully!")}
+            onClick={() => console.alert("shared successfully!")}
           >
             <Button text="Share" outlined={true} />
           </RWebShare>
