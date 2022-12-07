@@ -49,9 +49,10 @@ function LandingIntro() {
               url: "https://crypto-classic-2.netlify.app/",
               title: "Crypto Classic-2.0",
             }}
-            onClick={() => if(window.matchMedia("(min-width: 400px)").matches)
+            onClick={() => (
+                  return   if(window.matchMedia("(min-width: 400px)").matches)
                                 {console.log("Thankyou for sharing our application!")}
-                           else {alert("Thankyou for sharing our application!")}}
+                           else {alert("Thankyou for sharing our application!")})}
           >
             <Button text="Share" outlined={true} />
           </RWebShare>
