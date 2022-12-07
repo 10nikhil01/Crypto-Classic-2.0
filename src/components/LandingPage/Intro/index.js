@@ -49,7 +49,7 @@ function LandingIntro() {
               url: "https://crypto-classic-2.netlify.app/",
               title: "Crypto Dashboard",
             }}
-            onClick={() => console.alert("shared successfully!")}
+            onClick={() => console.log("Thankyou for sharing our application!")}
           >
             <Button text="Share" outlined={true} />
           </RWebShare>
