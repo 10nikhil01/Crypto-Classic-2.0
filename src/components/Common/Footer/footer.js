@@ -25,11 +25,11 @@ function Footer() {
         </a>
         <RWebShare
           data={{
-            text: "Crypto Classic 2.0 made using React JS in 2022",
-            url: "https://crypto-dashboard-nov.netlify.app/",
+            text: "Crypto Classic 2.0 made by NIKHIL using React JS",
+            url: "https://crypto-classic-2.netlify.app/",
             title: "Crypto Classic 2.0",
           }}
-          onClick={() => console.log("shared successfully!")}
+          onClick={() => console.log("Thankyou for sharing our application!")}
         >
           <SendIcon className="socials-icon" />
         </RWebShare>
