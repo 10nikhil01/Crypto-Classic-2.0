@@ -56,15 +56,6 @@ The project is fully responsive, ensuring a seamless user experience across diff
 - **Share Feature**: Share your portfolio with others by generating a shareable link.
 - **Responsive Design**: Fully responsive design that adapts to different devices and screen sizes.
 
-## Contributing
-
-Contributions are welcome! Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests.
-
-To report issues or request new features, visit the [Issue Tracker](https://github.com/your-username/cryptotracker/issues).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/your-username/cryptotracker/blob/main/LICENSE) file for details.
 
 ## Contact Information
 
