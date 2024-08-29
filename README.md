@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# CryptoTracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A live cryptocurrency tracker with bookmarking, dark/light mode, share feature, and fully responsive design.
+Live - https://crypto-classic-2.netlify.app/
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+CryptoTracker is a comprehensive tool for tracking your favorite cryptocurrencies in real-time. It offers users the ability to bookmark their preferred currencies, switch between dark and light modes, share their portfolio with others, and enjoy a fully responsive design that adapts to different devices. This project aims to provide an intuitive and user-friendly interface for crypto enthusiasts.
 
-### `npm start`
+## Installation Instructions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To get started with CryptoTracker, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/cryptotracker.git
+```
 
-### `npm test`
+2. **Install dependencies**
+```bash
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+or
+```bash
+yarn install
+```
 
-### `npm run build`
+3. **Start the project**
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+or
+```bash
+yarn start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The application will be accessible at `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+After installation, navigate to `http://localhost:3000` in your browser. You can then bookmark your favorite cryptocurrencies by clicking on the bookmark icon next to each currency.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To switch between dark and light modes, click on the toggle button located at the top right corner of the screen.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To share your portfolio, click on the "Share" button, which will generate a shareable link. You can also copy and paste the link directly from your address bar after clicking on the "Share" button.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The project is fully responsive, ensuring a seamless user experience across different devices and screen sizes.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Features
 
-## Learn More
+- **Live Tracking**: Real-time updates for cryptocurrency prices.
+- **Bookmarking**: Users can bookmark their favorite cryptocurrencies for easy access.
+- **Dark/Light Mode**: Switch between dark and light modes to suit your preference.
+- **Share Feature**: Share your portfolio with others by generating a shareable link.
+- **Responsive Design**: Fully responsive design that adapts to different devices and screen sizes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions are welcome! Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests.
 
-### Code Splitting
+To report issues or request new features, visit the [Issue Tracker](https://github.com/your-username/cryptotracker/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/your-username/cryptotracker/blob/main/LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contact Information
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For further information, please visit our website at [CryptoTracker Official Site](https://crypto-classic-2.netlify.app/).
